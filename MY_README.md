@@ -1,4 +1,11 @@
-README FILE :
+# README FILE :
+# Steps to create docker image using the dockerfile
+- create a folder with the dockerfile in it 
+- copy the contents of the forked `EveryDream2trainer` and set up the repo by following the instructions mentioned in the original repo. 
+- run the `docker build -f dock3 -t proj:myapp .`
+- a docker image should be created please increase default disk size of the image as the image is quite large.
+# Steps to create the docker image manually .
+- Start a docker container and follow the steps below.
 
 FILES THAT HAVE BEEN CREATED :
 
